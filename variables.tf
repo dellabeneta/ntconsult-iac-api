@@ -9,6 +9,7 @@ variable "environment" {
 
 variable "do_token" {
   default = ""
+  description = "Insira aqui ou crie um tfvars 'gitignorado' para esse valor"
   type = string  
 }
 
@@ -16,6 +17,7 @@ variable "do_token" {
 
 variable "my_ipv4_address" {
   default = ""
+  description = "Insira aqui ou crie um tfvars 'gitignorado' para esse valor"
   type = string
 }
 
@@ -101,16 +103,19 @@ variable "registry_tier_slug" {
 
 variable "project_name" {
   default = "Main Project"
+  description = "Nome do projeto dentro da Digital Ocean apenas"
   type    = string
 }
 
 variable "project_purpose" {
   default = "Service or API"
+  description = "Proposta desse projeto"
   type    = string
 }
 
 variable "project_environment" {
   default = "Production"
+  description = "Tipo de Ambiente que estamos lidando 'dev', 'prd' ..."
   type    = string
 }
 
