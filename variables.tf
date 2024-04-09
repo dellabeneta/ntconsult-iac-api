@@ -8,13 +8,14 @@ variable "environment" {
 # VARIÁVEL DO TOKEN
 
 variable "do_token" {
-  type = string
+  default = ""
+  type = string  
 }
 
 # VARIÁVEL CONTENDO MEU IP PUBLICO ATUAL (USO GERAL)
 
 variable "my_ipv4_address" {
-  default = "189.113.74.208"
+  default = ""
   type = string
 }
 
