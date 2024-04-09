@@ -102,7 +102,7 @@ variable "registry_tier_slug" {
 # VARIÁVEIS DO PROJECT
 
 variable "project_name" {
-  default = "Main Project"
+  default = "API Main"
   description = "Nome do projeto dentro da Digital Ocean apenas"
   type    = string
 }

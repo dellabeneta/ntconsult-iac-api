@@ -52,7 +52,7 @@ No modules.
 | <a name="input_my_ipv4_address"></a> [my\_ipv4\_address](#input\_my\_ipv4\_address) | Insira aqui ou crie um tfvars 'gitignorado' para esse valor | `string` | `""` | no |
 | <a name="input_project_description"></a> [project\_description](#input\_project\_description) | n/a | `string` | `"This project organizes the resources created by the main IaC."` | no |
 | <a name="input_project_environment"></a> [project\_environment](#input\_project\_environment) | Tipo de Ambiente que estamos lidando 'dev', 'prd' ... | `string` | `"Production"` | no |
-| <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Nome do projeto dentro da Digital Ocean apenas | `string` | `"Main Project"` | no |
+| <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Nome do projeto dentro da Digital Ocean apenas | `string` | `"API Main"` | no |
 | <a name="input_project_purpose"></a> [project\_purpose](#input\_project\_purpose) | Proposta desse projeto | `string` | `"Service or API"` | no |
 | <a name="input_registry_name"></a> [registry\_name](#input\_registry\_name) | Nome do recurso de registro de imagens de containers | `string` | `"registry-ntconsult-cr"` | no |
 | <a name="input_registry_region"></a> [registry\_region](#input\_registry\_region) | Região do recurso de registro de imagens de containers | `string` | `"sfo2"` | no |
