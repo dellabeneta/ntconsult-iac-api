@@ -11,6 +11,13 @@ variable "do_token" {
   type = string
 }
 
+# VARIÁVEL CONTENDO MEU IP PUBLICO ATUAL (USO GERAL)
+
+variable "my_ipv4_address" {
+  default = "189.113.74.208"
+  type = string
+}
+
 # VARIÁVEIS DO CLUSTER DOKS/NODES
 
 variable "doks_version" {
@@ -60,6 +67,7 @@ variable "database_version" {
   description = "A versão da Engine de banco escolhida para o projeto"
 }
 
+/*
 variable "database_api_user" {
   default     = "api-user"
   description = "Usuário para utilização da base de dados do ambiente"
@@ -69,6 +77,7 @@ variable "database_api_db" {
   default     = "api-db"
   description = "Base de dados para utilização no ambiente"
 }
+*/
 
 # VARIÁVEIS DO REGISTRY DE CONTAINERS - CR
 
@@ -96,6 +105,11 @@ variable "project_name" {
 
 variable "project_purpose" {
   default = "Service or API"
+  type    = string
+}
+
+variable "project_environment" {
+  default = "Production"
   type    = string
 }
 
