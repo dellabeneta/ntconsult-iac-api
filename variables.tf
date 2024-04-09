@@ -120,6 +120,6 @@ variable "project_environment" {
 }
 
 variable "project_description" {
-  default = "This project organizes the resources created by the main IaC."
+  default = "Esse projeto agrupa os recursos criados pela IaC Foundation."
   type    = string
 }
