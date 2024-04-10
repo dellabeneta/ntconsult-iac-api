@@ -6,7 +6,7 @@
 Repositório principal do projeto API REST contendo toda a IAC para provisionamento do mesmo. Note que, antes do seu uso, é necessário aplicar o projeto de fundação: https://github.com/dellabeneta/ntconsult-iac-api-foundation
 
 <br>
-<img src="https://drive.google.com/uc?export=view&id=1iJaCWK8kmdEebBhWBcrfgzwDHhvWJLog" width="1000">
+<img src="https://drive.google.com/uc?export=view&id=153GRKj1TypkTfZ5FmZICYiztg85fjnmJ" width="1000">
 <br>
 
 <!-- BEGIN_TF_DOCS -->
