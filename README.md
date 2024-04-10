@@ -5,6 +5,9 @@
 
 Repositório principal do projeto API REST contendo toda a IAC para provisionamento do mesmo. Note que, antes do seu uso, é necessário aplicar o projeto de fundação: LINKAQUI
 
+<br>
+<img src="https://drive.google.com/uc?export=view&id=1iJaCWK8kmdEebBhWBcrfgzwDHhvWJLog" width="1000">
+<br>
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
