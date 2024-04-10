@@ -3,7 +3,7 @@
 <img src="https://drive.google.com/uc?export=view&id=1spIcWkUkR1Ws0HZCPW1dn5fxL87BSCEp" width="1000">
 <br>
 
-Repositório principal do projeto API REST contendo toda a IAC para provisionamento do mesmo. Note que, antes do seu uso, é necessário aplicar o projeto de fundação: LINKAQUI
+Repositório principal do projeto API REST contendo toda a IAC para provisionamento do mesmo. Note que, antes do seu uso, é necessário aplicar o projeto de fundação: https://github.com/dellabeneta/ntconsult-iac-api-foundation
 
 <br>
 <img src="https://drive.google.com/uc?export=view&id=1iJaCWK8kmdEebBhWBcrfgzwDHhvWJLog" width="1000">
