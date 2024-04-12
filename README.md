@@ -74,3 +74,27 @@ No modules.
 | <a name="output_mongodb_id"></a> [mongodb\_id](#output\_mongodb\_id) | n/a |
 | <a name="output_mongodb_name"></a> [mongodb\_name](#output\_mongodb\_name) | n/a |
 <!-- END_TF_DOCS -->
+
+## Estrutura de diretórios e arquivos:
+
+della@desklin:~/projetos$ tree ntconsult-iac-api
+ntconsult-iac-api
+├── backend.tf
+├── diagrams
+│   ├── doks-main.drawio
+│   └── doks-main.drawio.png
+├── firewall.tf
+├── kubernetes.tf
+├── LICENSE
+├── locals.tf
+├── mongodb.tf
+├── outputs.tf
+├── project.tf
+├── provider.tf
+├── README.md
+├── registry.tf
+├── terraform.tfvars
+├── variables.tf
+└── vpc.tf
+
+2 directories, 16 files
