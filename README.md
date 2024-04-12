@@ -81,8 +81,8 @@ della@desklin:~/projetos$ tree ntconsult-iac-api
 ntconsult-iac-api
 ├── backend.tf
 ├── diagrams
-│   ├── doks-main.drawio
-│   └── doks-main.drawio.png
+│   ├── doks-main.drawio
+│   └── doks-main.drawio.png
 ├── firewall.tf
 ├── kubernetes.tf
 ├── LICENSE
