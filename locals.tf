@@ -20,7 +20,7 @@ locals {
   doks_region    = terraform.workspace == "tst" ? "nyc3" : "sfo2"
   doks_name      = terraform.workspace == "tst" ? "doks-ntconsult-tst" : "doks-ntconsult-prd"
   doks_node_name = terraform.workspace == "tst" ? "node-ntconsult-tst" : "node-ntconsult-prd"
-  doks_node_size = terraform.workspace == "tst" ? "s-2vcpu-4gb" : "s-2vcpu-4gb"
+  doks_node_size = terraform.workspace == "tst" ? "s-1vcpu-1gb" : "s-2vcpu-4gb"
   doks_min_nodes = terraform.workspace == "tst" ? 1 : 2
   doks_max_nodes = terraform.workspace == "tst" ? 2 : 4
 }
