@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+env:
+  DO_TOKEN: S {{ secrets.DO_TOKEN }}
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
 jobs:
   terraform:
     runs-on: ubuntu-latest
@@ -21,12 +26,8 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform Create and Switch Workspace to PRD
+      - name: Terraform Create and Switch the Workspace
         run: terraform workspace new prd
 
       - name: Terraform Apply
-        env:
-          DO_TOKEN: S {{ secrets.DO_TOKEN }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: terraform apply -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
