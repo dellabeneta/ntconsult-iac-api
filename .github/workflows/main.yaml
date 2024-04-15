@@ -21,8 +21,8 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      - name: Terraform Switch Workspace
-        run: terraform workspace select prd
+      - name: Terraform Create and Switch Workspace to PRD
+        run: terraform workspace new prd
 
       - name: Terraform Apply
         env:
