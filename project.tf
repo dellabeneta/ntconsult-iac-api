@@ -9,7 +9,7 @@ resource "digitalocean_project" "project" {
 
 
   # CONDICIONAL P/ NÃO CRIAR UM PROJECT P/ WORKSPACE TST
-  count = terraform.workspace != "tst" ? 1 : 0
+  # count = terraform.workspace != "tst" ? 1 : 0
 }
 
 

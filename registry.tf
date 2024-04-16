@@ -5,5 +5,5 @@ resource "digitalocean_container_registry" "registry" {
 
 
   # CONDICIONAL P/ NÃO CRIAR UM REGISTRY P/ WORKSPACE TST
-  count = terraform.workspace != "tst" ? 1 : 0
+  # count = terraform.workspace != "tst" ? 1 : 0
 }

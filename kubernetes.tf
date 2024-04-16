@@ -19,5 +19,5 @@ resource "digitalocean_kubernetes_cluster" "doks" {
   }
 
   # CONDICIONAL P/ NÃO INTEGRAR O REGISTRY P/ WORKSPACE TST
-  registry_integration = terraform.workspace == "prd" ? var.doks_registry_integration : null
+  registry_integration = terraform.workspace == "tst" ? var.doks_registry_integration : null
 }
