@@ -11,7 +11,7 @@
 
 # API REST - Main IaC
 <br>
-<img src="https://drive.google.com/uc?export=view&id=1spIcWkUkR1Ws0HZCPW1dn5fxL87BSCEp" width="1000">
+<img src="https://drive.google.com/uc?export=view&id=1spIcWkUkR1Ws0HZCPW1dn5fxL87BSCEp" width="1500">
 <br>
 
 Repositório principal do projeto API REST contendo toda a IAC para provisionamento do mesmo. Note que, antes do seu uso, é necessário aplicar o projeto de fundação: https://github.com/dellabeneta/ntconsult-iac-api-foundation
