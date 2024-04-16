@@ -1,9 +1,10 @@
 resource "digitalocean_kubernetes_cluster" "doks" {
-  region       = local.doks_region
-  name         = local.doks_name
-  version      = var.doks_version
-  auto_upgrade = var.doks_auto_upgrade
-  vpc_uuid     = digitalocean_vpc.vpc.id
+  region               = local.doks_region
+  name                 = local.doks_name
+  version              = var.doks_version
+  auto_upgrade         = var.doks_auto_upgrade
+  vpc_uuid             = digitalocean_vpc.vpc.id
+  registry_integration = var.doks_registry_integration
 
   maintenance_policy {
     start_time = var.maintenance_policy_start_time
@@ -17,7 +18,4 @@ resource "digitalocean_kubernetes_cluster" "doks" {
     max_nodes  = local.doks_max_nodes
     auto_scale = var.doks_node_auto_scale
   }
-
-  # CONDICIONAL P/ NÃO INTEGRAR O REGISTRY P/ WORKSPACE TST
-  registry_integration = terraform.workspace == "tst" ? var.doks_registry_integration : null
 }

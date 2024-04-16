@@ -6,5 +6,5 @@ resource "digitalocean_database_firewall" "trusted_sources" {
     value = digitalocean_kubernetes_cluster.doks.id
   }
 
-  depends_on = [ digitalocean_kubernetes_cluster.doks ]
+  depends_on = [digitalocean_kubernetes_cluster.doks]
 }
