@@ -1,4 +1,4 @@
-name: Deploy Terraform Main Project
+name: Terraform Deploy (Main IaC)
 
 on:
   push:
@@ -31,4 +31,4 @@ jobs:
         #run: terraform workspace select prd
 
       - name: Terraform Apply
-        run: terraform destroy -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
+        run: terraform apply -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
