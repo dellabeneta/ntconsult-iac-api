@@ -31,4 +31,5 @@ jobs:
         #run: terraform workspace select prd
 
       - name: Terraform Apply
-        run: terraform destroy -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
+        run: terraform plan
+        #run: terraform destroy -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
