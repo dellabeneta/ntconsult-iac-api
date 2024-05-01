@@ -32,4 +32,4 @@ jobs:
 
       - name: Terraform Apply
         #run: terraform plan
-        run: terraform apply -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
+        run: terraform destroy -auto-approve -var="do_token=${{ secrets.DO_TOKEN }}"
